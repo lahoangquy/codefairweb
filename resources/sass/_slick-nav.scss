@@ -1,0 +1,126 @@
+.slicknav_btn {
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 35px;
+    line-height: 50px;
+    padding: 10px 0 9px;
+    position: relative;
+    vertical-align: middle;
+    width: 44px;
+    border: 1px solid;
+    border-radius: 0;
+    margin: 16px 15px;
+    transition: all 0.2s linear;
+    .slicknav_icon-bar + .slicknav_icon-bar {
+        margin-top: 0.188em;
+    }
+}
+.slicknav_menu {
+    *zoom: 1;
+    font-size: 16px;
+    box-sizing: border-box;
+    .slicknav_menutxt {
+        display: block;
+        line-height: 1.188em;
+        float: left;
+        color: #fff;
+        font-weight: 700;
+        text-shadow: 0 1px 3px #000;
+    }
+    .slicknav_icon {
+        margin: 0.188em 0 0 0.438em;
+    }
+    .slicknav_no-text {
+        margin: 0;
+    }
+    .slicknav_icon-bar {
+        display: block;
+        width: 1.125em;
+        height: 0.125em;
+        margin: 0 auto;
+        border-radius: 1px;
+        transition: all 0.2s linear;
+    }
+    &:before {
+        content: " ";
+        display: table;
+    }
+    &:after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+    ul {
+        background: #fff;
+    }
+    * {
+        box-sizing: border-box;
+    }
+}
+.slicknav_nav {
+    clear: both;
+    color: #fff;
+    font-size: 0.875em;
+    list-style: outside none none;
+    margin: 0;
+    max-height: 350px;
+    padding: 0;
+    width: 100%;
+    ul {
+        display: block;
+        list-style: none;
+        overflow: hidden;
+        padding: 0;
+        margin: 0 0 0 20px;
+    }
+    li {
+        display: block;
+        line-height: 30px;
+    }
+    .slicknav_arrow {
+        background: #ededed none repeat scroll 0 0;
+        float: right;
+        text-align: center;
+        width: 35px;
+        color: #666;
+    }
+    .slicknav_item {
+        cursor: pointer;
+        a {
+            display: inline;
+            padding: 0;
+            margin: 0;
+        }
+    }
+    .slicknav_row {
+        display: block;
+        padding: 5px 10px;
+        margin: 2px 5px;
+    }
+    a {
+        display: block;
+        padding: 5px 15px;
+        margin: 2px 5px;
+        text-decoration: none;
+        color: #666;
+    }
+    .slicknav_parent-link {
+        a {
+            display: inline;
+            padding: 0;
+            margin: 0;
+        }
+    }
+    .slicknav_txtnode {
+        margin-left: 15px;
+    }
+}
+.slicknav_brand {
+    float: left;
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 7px 12px;
+    height: 44px;
+}
